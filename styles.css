@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #22252a;
+    color: #fff;
+    margin: 0;
+  }
+  .hero_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('./images/hero\ background.jpg') no-repeat center center / cover;
+    height: 70vh;
+  }
+  .hero_section h1{
+    font-size: 60px;
+  }
+
+
+  /*----------------------------*/
+  /* General Section Styling */
+.stats_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    gap: 4rem;
+  }
+  
+  /* Styling for the Number Box */
+  .stat_box {
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border: 5px solid rgb(141, 127, 127);
+  }
+  
+  .stat_number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f9a826; /* Highlight color for the number */
+  }
+  
+  .stat_box p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #cccccc; /* Subtle text color */
+  }
+  
+  /* Styling for the Text Content */
+  .stats_section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  .status_heading p{
+    color: #d4881e;
+  }
+  
+  .stat_content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #b0b0b0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .learn_more_btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #f9a826; /* Highlight button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .learn_more_btn:hover {
+    background-color: #d4881e; /* Darker hover effect */
+  }
+  
+
+  /*--Read More section-------------*/
+
+  .readmore_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 5rem;
+  }
+  .readmore_section img {
+    width: 300px;
+  }
+  .reademore_card1{
+    width: 290px;
+    height: 430px;
+    background: url('./images/read\ 04.jpg') no-repeat center center / cover;
+  }
+  .reademore_card2{
+    width: 290px;
+    height: 430px;
+    background: url('./images/read\ 02.jpg') no-repeat center center / cover;
+  }
+  .reademore_card3{
+    width: 290px;
+    height: 430px;
+    background: url('./images/read\ 03.jpg') no-repeat center center / cover;
+  }
+  .reademore_card4{
+    width: 290px;
+    height: 430px;
+    background: url('./images/read\ 01.jpg') no-repeat center center / cover;
+  }
+  .readmore_section p{
+    margin-left: 1rem;
+    padding: 4px;
+    margin-top: 300px;
+    background-color: #d4881e;
+    width: 5rem;
+    border-radius: 3px;
+  }
+  .readmore_section h3{
+    padding-left: 1rem;
+  }
+  .readmore_section a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  /*----------------*/
+  .advantages_section{
+    margin-top: 7rem;
+  }
+  .advantages_heading{
+    text-align: center;
+  }
+  .advantages_heading p{
+    color: #d4881e;
+  }
+  .advantages_heading h2{
+    font-size: 35px;
+  }
+  .advantages_details{
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .advantages_details_card{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  }
+  .advantages_details_card img{
+    width: 60px;
+    background-color: #33363a;
+    border-radius: 50%;
+    padding: 7px;
+  }
+
+  /*--Show case section------*/
+  .discount {
+    position: relative;
+    height: 60vh;
+  }
+  
+  .discount .overlay {
+    position: relative;
+    height: 60vh;
+  }
+  
+  .discount .overlay::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: var(--text-1);
+    opacity: 0.5;
+  }
+  
+  .discount video {
+    object-fit: cover;
+    height: 60vh;
+  }
+  
+  .discount .content {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+  }
+  
+  .discount .content h1 {
+    font-size: 5rem;
+    color: var(--white);
+    margin-bottom: 3rem;
+  }
+
+  @media (max-width: 567px) {
+    .discount {
+      height: 50rem;
+    }
+  
+    .discount .content {
+      top: 50%;
+      width: 100%;
+    }
+  
+    .discount .content h1 {
+      font-size: 3.5rem;
+    }
+  
+    .discount .content .btn {
+      padding: 1rem;
+    }
+  
+    .discount .content span {
+      font-size: 3rem;
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  
