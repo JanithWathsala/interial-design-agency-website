@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav>
-
+        <ul>
+            <li><b><a href="">Home</a></b></li>
+            <li><b><a href="">About</a></b></li>
+            <li><b><a href="">Portfolio</a></b></li>
+            <li><b><a href="">Testimonial</a></b></li>
+        </ul>
     </nav>
 
     <section class="hero_section">
-        <h1>Transforming Spaces, <br> Elevating Lives</h1>
-        <p><b>Book a Free Consultation.</b></p>
-        <div class="hero_button">
+        <h1 data-aos="fade-down" data-aos-duration="1000">Transforming Spaces, <br> Elevating Lives</h1>
+        <p data-aos="fade-down" data-aos-duration="1000"><b>Book a Free Consultation.</b></p>
+        <div class="hero_button" data-aos="fade-down" data-aos-duration="1000">
             Book Now
         </div>
     </section>
@@ -39,7 +45,7 @@
         </div>
       </section>
 
-      <section class="readmore_section">
+      <section class="readmore_section" data-aos="fade-down" data-aos-duration="1000">
         <div class="reademore_card1">
             <h3>External <br>Collection</h3>
             <p><a href="">Read More</a></p>
@@ -60,10 +66,10 @@
       
       <section class="advantages_section">
         <div class="advantages_heading">
-            <p>OUR ADVANTAGES</p>
-            <h2>Dedicated to providing exceptional <br> customer experiences.</h2>
+            <p data-aos="fade-down" data-aos-duration="1000">OUR ADVANTAGES</p>
+            <h2 data-aos="fade-down" data-aos-duration="1200">Dedicated to providing exceptional <br> customer experiences.</h2>
         </div>
-        <div class="advantages_details">
+        <div class="advantages_details" data-aos="fade-down" data-aos-duration="1000">
             <div class="advantages_details_card">
                 <div>
                     <img src="./images/truck.png" alt="">
@@ -83,7 +89,7 @@
                     <img src="./images/shield.png" alt="">
                 </div>
                 <h4>Safe Payment</h4>
-                <p>We prioritize your security with trusted, encrypted payment methods, ensuring your transactions and personal information are always protected.</p>
+                <p>Your security matters—encrypted payment methods safeguard your transactions and personal information for complete protection.</p>
             </div>
             <div class="advantages_details_card">
                 <div>
@@ -95,25 +101,121 @@
         </div>
       </section>
 
-      <section class="section discount">
-        <div class="overlay">
+      <section class="section_discount">
+        <div class="discount_heading">
+            <p>SHOW CASE</p>
+            <h1>From design throught <br>installation, your safety <br> matters</h1>
+            <p></p>
+            <div class="showcase_button">More Video</div>
+        </div>
+        <div class="discount_video">
             <video autoplay loop muted class="background_video">
                 <source src="./images/4307513-hd_1920_1080_30fps.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
-        <div class="content">
-          <h1>
-            Get 15% Off On Tour <br />
-            Next Travel
-          </h1>
-          <a href="#" class="btn">Explore the Tour</a>
-          <span class="video-control d-flex"><i class="bx bx-play"></i></span>
+      </section>
+
+      <section class="portpolio_section">
+        <p class="portpolio_p" data-aos="fade-down" data-aos-duration="1000">OUR PORTPOLIO</p>
+        <h2 data-aos="fade-down" data-aos-duration="1200">Brows our home design</h2>
+        <p data-aos="fade-down" data-aos-duration="1500"> 
+        Discover our innovative designs and crafted spaces, blending functionality and aesthetics. Each project reflects <br>
+        creativity, precision, and commitment to meeting unique client visions.</p>
+        <div class="portpolio_imgs" data-aos="fade-down" data-aos-duration="1000">
+            <img src="./images/pt 1.jpg" alt="">
+            <img src="./images/pt 2.jpg" alt="">
+            <img src="./images/pt 3.jpg" alt="">
+            <img src="./images/pt 4.jpg" alt="">
+            <img src="./images/pt 5.jpg" alt="">
+            <img src="./images/pt 6.jpg" alt="">
+        </div>
+      </section>
+
+      <section class="warenty_section">
+        <div class="warent_img" data-aos="fade-right" data-aos-duration="1200">
+            <img src="./images/kitchen.jpg" alt="">
+        </div>
+        <div class="waronty_details" data-aos="fade-left" data-aos-duration="1200">
+            <img src="" alt="">
+            <h2>Graceful design for every kitchen.</h2>
+            <p>Experience the perfect blend of style and functionality, bringing elegance
+                <br> and ease to your cooking space effortlessly.
+            </p>
+            <div class="waronty_details_card">Get in kitchen Now</div>
+        </div>
+      </section>
+
+      <section class="testimonial_section">
+        <p class="testimonial_section_p" data-aos="fade-down" data-aos-duration="1000">TESTIMONIAL</p>
+        <h2 data-aos="fade-down" data-aos-duration="1000">What our happy clients <br> say about us</h2>
+        <div class="testimonial_card_section" data-aos="fade-down" data-aos-duration="1000">
+            <div class="testimonial_card">
+                <p>"The team exceeded my expectations! Their attention to detail and creativity transformed my space into something truly extraordinary. Highly recommended!"</p>
+                <div class="testimonial_details">
+                    <img src="./images/person 1.jpg" alt="">
+                    <div>
+                        <p>Sarah L.</p>
+                        <p><b>Software Enginner</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial_card">
+                <p>"Outstanding service and exceptional designs! They perfectly captured my vision and turned it into a reality. I couldn’t be happier!"</p>
+                <div class="testimonial_details">
+                    <img src="./images/person.jpg" alt="">
+                    <div>
+                        <p>Amelia S</p>
+                        <p><b>Marketing Manager</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="philoshopy_section">
+        <div class="philoshopy">
+            <p class="philoshopy_p">PHILOSHOPY</p>
+            <h2>Modern Designs for Today’s World</h2>
+            <p>We create contemporary designs that blend innovation and functionality, perfectly 
+                <br>tailored to meet the demands of modern living.
+            </p>
+            <div class="philoshopy_button">EXPLORE OUR VISUALS</div>
+        </div>
+        <div class="philoshopy2"><img src="./images/bed.jpg" alt=""></div>
+      </section>
+
+      <section class="details_section">
+        <div class="details_card">
+            <div class="stat_number">10+</div>
+            <p>Experience</p>
+        </div>
+        <div class="details_card">
+            <div class="stat_number">15+</div>
+            <p>Awards</p>
+        </div>
+        <div class="details_card">
+            <div class="stat_number">40+</div>
+            <p>Designers</p>
+        </div>
+        <div class="details_card">
+            <div class="stat_number">500+</div>
+            <p>Portfolio</p>
         </div>
       </section>
 
       <footer>
-        <h1>hellow</h1>
+        <div class="footer_section">
+            <p data-aos="fade-down" data-aos-duration="1000">DREAM HOUSE</p>
+            <h2 data-aos="fade-down" data-aos-duration="1000">Desogning the house your've <br> always imagined</h2>
+            <div class="footer_section_button">Book Now</div>
+            <p class="foooter_copyright">@copyright 2025 house_design. All rights reserved.</p>
+        </div>
       </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
 </body>
 </html>
